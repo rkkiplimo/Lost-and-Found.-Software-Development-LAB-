@@ -478,16 +478,16 @@ function is_admin()
         $sql = "SELECT `isadmin` FROM `user` WHERE `email`='$x'";
         $row = mysqli_query($conn, $sql);
 
-        if ($row['isadmin'] == 1) {
-
-            return true;
+        if ($row = mysqli_fetch_assoc($row)) {
+            if ($row['isadmin'] == 1) {
+                return true;
+            } else {
+                return false;
+            }
         } else {
-
             return false;
         }
-    } else {
-
-        return false;
+        
     }
 }
 
