@@ -477,7 +477,6 @@ function is_admin()
         $x = $_SESSION['login_user'];
         $sql = "SELECT `admin` FROM `user` WHERE `email`='$x'";
         $row = mysqli_query($conn, $sql);
-        $admin = mysqli_query($connection, "SELECT * FROM fthings");
         if ($row = mysqli_fetch_assoc($row)) {
     if ($row['admin'] == 1) {
         return true;
