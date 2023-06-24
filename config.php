@@ -1,6 +1,6 @@
 <?php
 
-$db_name='flownthings';
+$db_name='lost and found';
 $dbhost = 'localhost';
 $dbuser = 'root';
 $dbpass = '';
