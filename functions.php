@@ -476,19 +476,19 @@ function is_admin()
 
         $x = $_SESSION['login_user'];
         $sql = "SELECT `isadmin` FROM `user` WHERE `email`='$x'";
-        $result = mysqli_query($conn, $sql);
-        
-        if ($result && mysqli_num_rows($result) > 0) {
-            $row = mysqli_fetch_assoc($result);
-            if ($row['isadmin'] == 1) {
-                return true;
-            } else {
-                return false;
-            }
+        $row = mysqli_query($conn, $sql);
+
+        if ($row['isadmin'] == 1) {
+
+            return true;
         } else {
+
             return false;
         }
-    }  
+    } else {
+
+        return false;
+    }
 }
 //function to get total count of table
 function t_count($x){
