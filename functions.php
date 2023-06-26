@@ -528,5 +528,3 @@ function draft_post_count(){
 }
 
 ?>
-
-
