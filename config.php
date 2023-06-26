@@ -8,8 +8,9 @@ $dbpass = '';
 $conn = mysqli_connect($dbhost, $dbuser, $dbpass);
 
 if (!$conn) {
-    die('Could not connect: ' . mysqli_connect_error());
+    echo'Could not connect: ' . mysqli_connect_error();
     mysqli_close($conn);
+    exit();
     }
 
 $retval = mysqli_select_db($conn,$db_name);
