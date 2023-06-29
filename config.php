@@ -6,7 +6,7 @@ $dbuser = 'root';
 $dbpass = '';
 
 $conn = mysqli_connect($dbhost, $dbuser, $dbpass);
-
+// Check if the connection was successful
 if (!$conn) {
     echo'Could not connect: ' . mysqli_connect_error();
     mysqli_close($conn);
