@@ -49,7 +49,7 @@ if(isset($_GET['signup'])){
             <div class="row rowx no-pad-bot card-content no-pad-top ">
                 <div class="input-field col s12 no-pad-bot center ">
                   <!--  <img src="image/logo.png" alt="" class=" responsive-img valign profile-image-login">-->
-                    <p class="center-align text-darken-4 white-text  " style="margin: 0px;">LOST AND FOUND THINGS MANAGEMENT</p>
+                    <p class="center-align text-darken-4 white-text  " style="margin: 0px;">LOST AND FOUND</p>
                 </div>
             </div>
 
@@ -58,7 +58,7 @@ if(isset($_GET['signup'])){
 
                 <div class="card-tabs">
                     <ul class="tabs tabs-fixed-width no-padding">
-                        <li class="tab"><a href="#login" class="active">Login</a></li>
+                        <li class="tab"><a href="#login" class="active">Sign in</a></li>
                         <li class="tab"><a href="#signup">Sign Up</a></li>
                     </ul>
                 </div>

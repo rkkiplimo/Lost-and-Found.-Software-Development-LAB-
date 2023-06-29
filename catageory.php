@@ -59,7 +59,7 @@ if($_SERVER['REQUEST_METHOD']=="POST")
 <div class="container white-text  blue-grey   darken-3 form_main z-depth-5">
     <div class="row">
         <div class="col s6">
-            <h5 style="text-transform:uppercase">Choose Catagory to delete</h5>
+            <h5 style="text-transform:uppercase">Choose Category to delete</h5>
         </div>
         <form class="" action="catageory.php" method="post" enctype='multipart/form-data'>
             <div class="col s8">
@@ -90,7 +90,7 @@ if($_SERVER['REQUEST_METHOD']=="POST")
 <div class="container white-text  blue-grey   darken-3 form_main z-depth-5">
     <div class="row">
         <div class="col s6">
-            <h5 style="text-transform:uppercase">Enter Catagory to Add</h5>
+            <h5 style="text-transform:uppercase">Enter Category to Add</h5>
         </div>
         <form class="" action="catageory.php" method="post" enctype='multipart/form-data'>
             <div class="col s8">
@@ -98,7 +98,7 @@ if($_SERVER['REQUEST_METHOD']=="POST")
                     <div class="input-field col s10">
                         <input id="icon_prefix" type="text" required class="validate" name="cat" minlength="5"
                                maxlength="6">
-                        <label for="icon_prefix " class="white-text">Catageory</label>
+                        <label for="icon_prefix " class="white-text">Categeory</label>
                     </div>
 
                 </div>
